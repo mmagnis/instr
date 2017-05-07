@@ -2,7 +2,6 @@ git clone git://github.com/cmangos/mangos-wotlk.git mangos
 
 cmake ../mangos -DCMAKE_INSTALL_PREFIX=\../run -DBUILD_EXTRACTOR=ON -DBUILD_VMAP_EXTRACTOR=ON -DBUILD_MMAP_EXTRACTOR=ON -DPCH=1 -DDEBUG=0 
 
-
 MariaDB
 
 cmake ../mangos -DCMAKE_INSTALL_PREFIX=\../run -DBUILD_EXTRACTOR=ON -DBUILD_VMAP_EXTRACTOR=ON -DBUILD_MMAP_EXTRACTOR=ON -DPCH=1 -DDEBUG=0 -DOPENSSL_INCLUDE_DIR="/usr/include/openssl-1.0" -DOPENSSL_CRYPTO_LIBRARY="/usr/lib/openssl1.0/libcrypto.so" -DOPENSSL_SSL_LIBRARY="/usr/lib/openssl-1.0/libssl.so"
